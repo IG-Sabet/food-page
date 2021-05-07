@@ -1,0 +1,216 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+h4{
+	padding: 15px 0px;
+	font-size: 30px;
+}
+p{
+	font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* Header section */
+.nav-head{
+	padding: 15px 0px;
+	background-color: #edeff1;
+}
+.nav-link{
+	color: #31353e;
+	margin: 0px 5px;
+}
+.nav-link.js-scroll-trigger.active{
+	background: #dd4b2b;
+	color: white;
+	padding: 6px 20px;
+	border-radius: 50px;
+}
+
+/* hero section */
+.hero{
+	width: 100%;
+	float: left;
+	background: url(../img/hero.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	color: white;
+}
+.hero-main{
+	padding-bottom: 125px;
+	padding-top: 400px;
+	text-align: center;
+}
+
+.food-one{
+	text-align: center;
+}
+.food-two{
+	text-align: center;
+}
+.food-three{
+	text-align: center;
+}
+.hero-sec{
+	padding-bottom: 60px;
+}
+.cstm-btn{
+	display: inline-block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    color: #612316;
+    border-radius: 26px;
+}
+.hreo-btn{
+	padding: 0px 0px 250px;
+}
+
+/* Service Section */
+
+.service{
+	width: 100%;
+	float: left;
+	background: #edeff1;
+
+}
+.service-title{
+	padding: 59px 0px 65px;
+}
+.service-title h1{
+	text-align: center;
+	font-size: 38px;
+}
+h3{
+	padding: 35px 0px 10px;
+	text-align: center;
+}
+.service-btn{
+	display: block;
+    margin: 30px auto 100px;
+    padding: 4px 15px;
+    background: white;
+    border-radius: 26px;
+    border-color: white;
+}
+
+/* NewsLetter Secction */
+
+.newsletter{
+	width: 100%;
+	float: left;
+	background: url(../img/burg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding: 30px 0px 50px;
+}
+.news-title{
+	text-align: center;
+	color: white;
+	padding: 54px 0px 35px;
+}
+.newsletter-cstm{
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+.form-control{
+	background: transparent;
+    position: relative;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+.Submit-btn{
+	padding: 5px 34px;
+    border-radius: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #690404;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white!important;
+}
+
+/* About section */
+
+.about{
+	width: 100%;
+	float: left;
+	padding: 100px 0px 120px;
+	background: #ffffff;
+}
+.about-one h6{
+	font-size: 15px;
+    font-weight: 300;
+    padding: 16px 0px 8px;
+}
+.about-one p{
+	font-size: 15px;
+    font-weight: 300;
+    padding: 16px 0px 18px;
+    text-align: left;
+}
+.abou-btn{
+	padding: 8px 63px;
+    background: #dd4b2b;
+    border-radius: 19px;
+    color: #ffff;
+}
+.about-five{
+	margin: 0px 0px 70px;
+}
+.about-four h6{
+	font-size: 15px;
+    font-weight: 300;
+    padding: 16px 0px 8px;
+}
+.about-four p{
+	font-size: 15px;
+    font-weight: 300;
+    padding: 16px 0px 18px;
+    text-align: left;
+}
+.abou-btn-two{
+	padding: 8px 63px;
+    background: #4b4e73;
+    border-radius: 19px;
+    color: #ffff;
+}
+
+/* Address Section */
+
+.address{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	background: #d75d0e;
+}
+.address ul{
+	list-style: none;
+}
+.address ul li{
+	color: #fff;
+    padding: 5px 0px;
+    font-weight: 100;
+}
+
+/* Footer section */
+
+footer{
+	width: 100%;
+    float: left;
+    background: url(../img/footer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 95px 0px;
+}
+footer p{
+	color: white;
+    font-size: 23px;
+}
+footer span{
+	font-weight: 700;
+}
